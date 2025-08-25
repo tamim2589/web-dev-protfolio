@@ -97,6 +97,11 @@ nav li a{
   font-size: 18px;
   color: #757575;
 }
+.banner-image{
+  max-width: 500px;
+  height: auto;
+  margin-right: 100px;
+}
 
 /* main style */
 main{

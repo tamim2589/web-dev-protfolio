@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-box {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-box">
+    <h2>Contact Me</h2>
+    <form onsubmit="showMessage(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    function showMessage(event) {
+      event.preventDefault(); // form reload bondho kore
+      alert("SMS send successfully ✅");
+    }
+  </script>
+
+</body>
+</html>

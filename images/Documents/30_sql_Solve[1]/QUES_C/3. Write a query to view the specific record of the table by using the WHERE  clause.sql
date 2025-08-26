@@ -1,0 +1,1 @@
+-- 3. Write a query to view the specific record of the table by using the WHERE       clause?

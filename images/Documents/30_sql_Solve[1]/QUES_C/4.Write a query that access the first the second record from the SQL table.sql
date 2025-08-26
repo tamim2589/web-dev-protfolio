@@ -1,0 +1,1 @@
+-- 4.Write a query that access the first the second record from the SQL table?

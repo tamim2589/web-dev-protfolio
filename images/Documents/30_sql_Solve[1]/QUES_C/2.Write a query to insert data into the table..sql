@@ -1,0 +1,1 @@
+-- 2.Write a query to insert data into the table.

@@ -1,0 +1,1 @@
+-- 6.Write a query how to find monthly salary of Employee if annual salary is given?

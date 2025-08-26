@@ -1,0 +1,1 @@
+-- 9. Write an SQL query to fetch common records between two tables.

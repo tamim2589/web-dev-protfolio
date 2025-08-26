@@ -1,0 +1,1 @@
+-- 3. *Question: Calculate the average salary of all employees. 

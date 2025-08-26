@@ -1,0 +1,1 @@
+-- 5. Write a query to find second highest Salary of Employee?

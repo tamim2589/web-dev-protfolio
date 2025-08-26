@@ -1,0 +1,1 @@
+-- 1.Write a query to create the table in Structured Query Language.

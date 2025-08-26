@@ -1,0 +1,1 @@
+-- 5. *Question:* Count the number of employees in each department.

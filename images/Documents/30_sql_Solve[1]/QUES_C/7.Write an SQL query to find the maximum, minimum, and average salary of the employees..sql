@@ -1,0 +1,1 @@
+-- 7.Write an SQL query to find the maximum, minimum, and average salary of the employees.

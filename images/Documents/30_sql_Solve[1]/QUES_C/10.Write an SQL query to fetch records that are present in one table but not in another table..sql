@@ -1,0 +1,1 @@
+-- 10.Write an SQL query to fetch records that are present in one table but not in another table.
